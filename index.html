@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tweeten</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+
+    <style>
+        body {
+            padding-top: 70px;
+        }
+    </style>
+</head>
+
+<!-- start of body-->
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="#">Tweeten</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Moments</a></li>
+                    <li><a href="#">Messages</a></li>
+                </ul>
+
+                <button class="btn btn-primary navbar-btn navbar-right">Tweet</button>
+                <img src="images/mespencer.jpg" alt="Chad Rogers" class="img-circle navbar-right"
+                    style="padding: 5px;">
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+		
+		<!-- The left side goes here -->
+            <div class="col-xs-1 col-sm-2 col-md-3">
+                <img src="images/mespencerfull.jpg" alt="Chad Spencer" class="img-thumbnail img-circle img-responsive">
+                <h3>Chad Rogers</h3>
+                <p class="design">Custom computer builder! I do it all!</p>
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fa fa-fw fa-map-pin"></i> Springfield, MO
+                    </li>
+                    <li>
+                        <i class="fa fa-fw fa-calendar"></i> Joined September 2017
+                    </li>
+                    <li>
+                        <i class="fa fa-fw fa-image"></i> 0 Photos and 0 Videos
+                    </li>
+                </ul>
+            </div>
+			
+			<!-- The center column goes here -->
+            <div class="col-xs-10 col-sm-5 col-md-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title text-center">Tweet Here</h3>
+                    </div>
+                    <div class="panel-body">
+                        <textarea name="" id="" rows="3" class="form-control"></textarea>
+                        <br>
+                        
+                        <div class="pull-right">
+                            <button class="btn btn-primary">Submit Tweet</button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="media-list list-group">
+                    <li class="list-group-item">
+                        Tweets
+                    </li>
+                    <li class="list-group-item">
+                        <div class="media">
+                            <div class="media-left">
+                                <img class="media-object img-circle" src="images/mespencer.jpg" alt="Adam Engebretson">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">
+                                    Chad Rogers
+                                </h4>
+                                Love building Gaming PC's <br/> #thermaltake
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+			
+			<!-- The right side panel goes here -->
+			
+            <div class="col-xs-1 col-sm-2 col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Your Tweet Activity</h3>
+                    </div>
+                    <div class="panel-body">
+                        I guess I'm supposed to make this my first tweet.
+                    </div>
+                </div>
+			
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Follow!!</h3>
+                    </div>
+                    <ul class="list-group">
+					<!-- my main man cody's youtube page! -->
+                        <li class="list-group-item">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img class="media-object img-circle" src="images/ifr.jpg" alt="IFR">
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        @DesignsByIFR
+                                    </h4>
+                                    <a href="https://www.youtube.com/user/ImfacerollPCGaming" class="btn btn-info">Follow</a>
+                                </div>
+                            </div>
+                        </li>
+						
+					<!-- Here is my FB page -->
+                        <li class="list-group-item">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img class="media-object img-circle" src="images/setup.jpg" alt="Set Up">
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">
+                                        @Chad Rogers
+                                    </h4>
+                                    <a href="https://www.facebook.com/chad.rogers.5855" class="btn btn-info">Follow</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
